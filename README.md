@@ -30,7 +30,7 @@ jobs:
         uses: lc5415/rmarkdown-action@v1
         with:
           input_file: path/to/my_doc.Rmd
-	  output_format: pdf_document
+          output_format: pdf_document
 ```
 
 ## Other powerful usages
@@ -60,7 +60,7 @@ jobs:
         uses: lc5415/rmarkdown-action@v1
         with:
           input_file: path/to/my_doc.Rmd
-	  output_format: pdf_document
+          output_format: pdf_document
       - name: Commit files
         run: |
           git config --local core.autocrlf false
